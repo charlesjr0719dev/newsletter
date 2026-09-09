@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charles 的個人電子報</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#f6f6f4;--surface:#fff;--surface-2:#2c2c26;--surface-tint:#e8e7d9;
+  --border:#d0d0c8;--border-heavy:#57584b;
+  --text:#000;--text-body:#6d6e5e;--text-dim:#979886;--text-muted:#aaab9c;
+  --accent:#fff347;--accent-2:#aaa674;
+  --font-display:'Fraunces','Noto Serif TC',Georgia,serif;
+  --font-body:'IBM Plex Mono','PingFang TC',monospace;
+}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:14px;line-height:1.6;letter-spacing:-0.5px}
+.page{max-width:720px;margin:0 auto;padding:60px 24px}
+h1{font-family:var(--font-display);font-size:48px;font-weight:300;letter-spacing:-2.4px;line-height:1.0;margin-bottom:12px}
+.subtitle{font-size:13px;color:var(--text-dim);margin-bottom:48px}
+.section{margin-bottom:36px}
+.section-label{font-size:11px;font-weight:500;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.issue{display:block;padding:16px 0;border-bottom:1px solid var(--border);text-decoration:none;color:var(--text);transition:border-color .2s}
+.issue:hover{border-color:var(--accent)}
+.issue-title{font-size:15px;font-weight:500;letter-spacing:-0.5px;margin-bottom:4px}
+.issue-meta{font-size:12px;color:var(--text-dim)}
+.footer{background:var(--surface-2);color:#fff;padding:32px 24px;margin-top:48px;font-size:12px;line-height:1.6;margin-left:-24px;margin-right:-24px}
+.footer-inner{max-width:720px;margin:0 auto}
+@media(max-width:600px){
+  h1{font-size:32px;letter-spacing:-1.6px}
+  .page{padding:24px 16px}
+  .footer{margin-left:-16px;margin-right:-16px;padding:24px 16px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<h1>電子報</h1>
+<p class="subtitle">Charles 的個人電子報 · 自動產生 · Mac Mini cron + Claude API</p>
+
+<div class="section">
+  <p class="section-label">每日</p>
+  <a class="issue" href="daily_2026-09-09.html">
+    <p class="issue-title">2026.09.09（三）</p>
+    <p class="issue-meta">AI · 音樂 · 跨域 Maker</p>
+  </a>
+</div>
+
+<div class="section">
+  <p class="section-label">每週</p>
+  <a class="issue" href="weekly_2026-09-08.html">
+    <p class="issue-title">2026 第 37 週（9/8–14）</p>
+    <p class="issue-meta">跨域研究員 · 藝文活動 · 社群聚會 · 補助駐村徵件</p>
+  </a>
+</div>
+
+<div class="section">
+  <p class="section-label">每月</p>
+  <a class="issue" href="monthly_2026-09.html">
+    <p class="issue-title">2026 年 9 月</p>
+    <p class="issue-meta">旅行靈感 · 跨域研究員 Review</p>
+  </a>
+</div>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    Charles 的個人電子報 · 自動產生<br>
+    由 Mac Mini cron + Claude API 篩選，GitHub Pages 託管
+  </div>
+</footer>
+</body>
+</html>

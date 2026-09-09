@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每週電子報 — 2026.09.08 週</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#f6f6f4;--surface:#fff;--surface-2:#2c2c26;--surface-tint:#e8e7d9;
+  --border:#d0d0c8;--border-heavy:#57584b;
+  --text:#000;--text-body:#6d6e5e;--text-dim:#979886;--text-muted:#aaab9c;
+  --accent:#fff347;--accent-2:#aaa674;--deadline:#e85d3a;
+  --font-display:'Fraunces','Noto Serif TC',Georgia,serif;
+  --font-body:'IBM Plex Mono','PingFang TC',monospace;
+  --section-gap:48px;--item-gap:16px;--page-max-width:720px;
+}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:14px;line-height:1.6;letter-spacing:-0.5px}
+.page{max-width:var(--page-max-width);margin:0 auto;padding:40px 24px 0}
+.page-header{margin-bottom:var(--section-gap)}
+.date-title{font-family:var(--font-display);font-size:48px;font-weight:300;letter-spacing:-2.4px;line-height:1.0;margin-bottom:8px}
+.date-sub{font-size:13px;color:var(--text-dim);margin-bottom:12px}
+.freq-badge{display:inline-block;font-size:11px;font-weight:500;text-transform:uppercase;color:var(--text-body);background:var(--surface-tint);border:1px solid var(--accent-2);border-radius:3px;padding:3px 10px;letter-spacing:1px}
+.section{margin-bottom:var(--section-gap)}
+.section-header{display:flex;align-items:baseline;gap:12px;margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid var(--border-heavy)}
+.section-title{font-family:var(--font-display);font-size:32px;font-weight:300;letter-spacing:-1.6px;line-height:1.1}
+.section-tag{font-size:11px;font-weight:500;color:var(--text-dim);background:var(--surface-tint);border:1px solid var(--accent-2);border-radius:3px;padding:2px 8px;white-space:nowrap}
+.subsection{margin-bottom:24px}
+.subsection-title{font-size:12px;font-weight:500;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.item{padding:var(--item-gap) 0;border-bottom:1px solid var(--border)}
+.item:last-child{border-bottom:none}
+.item-title{font-size:15px;font-weight:500;letter-spacing:-0.5px;line-height:1.5;margin-bottom:4px}
+.item-title a{color:var(--text);text-decoration:underline;text-decoration-color:var(--border);text-underline-offset:3px;transition:text-decoration-color .2s}
+.item-title a:hover{text-decoration-color:var(--accent)}
+.item-body{font-size:13px;color:var(--text-body);line-height:1.6;margin-bottom:6px}
+.item-meta{font-size:12px;color:var(--text-dim);display:flex;gap:12px;flex-wrap:wrap}
+.item-meta .source{color:var(--text-muted)}
+.item.highlight{border-left:4px solid var(--accent);padding-left:16px;margin-left:-16px}
+.deadline-warn{color:var(--deadline);font-weight:500;font-size:12px}
+.tag{display:inline-block;font-size:11px;font-weight:500;padding:2px 6px;border-radius:3px;margin-right:4px}
+.tag-cat{background:var(--surface-tint);color:var(--text-body)}
+.tag-zero{background:var(--surface-tint);color:var(--text-body)}
+.tag-low{background:transparent;border:1px solid var(--accent-2);color:var(--text-body)}
+.tag-apply{background:transparent;border:1px solid var(--border-heavy);color:var(--text-dim)}
+.paper-authors{font-size:12px;color:var(--text-muted);margin-bottom:2px}
+.paper-venue{font-size:11px;font-weight:500;color:var(--accent-2)}
+.meetup-grid{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;font-size:12px;color:var(--text-body);margin-top:8px}
+.meetup-grid dt{color:var(--text-dim);font-weight:500;white-space:nowrap}
+.footer{background:var(--surface-2);color:#fff;padding:32px 24px;margin-top:var(--section-gap);font-size:12px;line-height:1.6;margin-left:-24px;margin-right:-24px}
+.footer-inner{max-width:var(--page-max-width);margin:0 auto}
+@media(max-width:600px){
+  .date-title{font-size:32px;letter-spacing:-1.6px}
+  .section-title{font-size:24px;letter-spacing:-1.2px}
+  .section-header{flex-direction:column;gap:6px}
+  .page{padding:24px 16px 0}
+  .footer{margin-left:-16px;margin-right:-16px;padding:24px 16px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="page-header">
+  <h1 class="date-title">9月第2週</h1>
+  <p class="date-sub">2026.09.08 — 09.14</p>
+  <span class="freq-badge">每週</span>
+</header>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 跨域研究員 -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">跨域研究員</h2>
+    <span class="section-tag">本週新論文</span>
+  </div>
+
+  <div class="item highlight">
+    <p class="item-title"><a href="https://arxiv.org/abs/2604.23583" target="_blank">Opening the Design Space: Two Years of Performance with Intelligent Musical Instruments</a></p>
+    <p class="paper-authors">Charles Patrick Martin</p>
+    <p class="paper-venue">NIME 2026</p>
+    <p class="item-body">以低成本單板電腦打造可攜式生成式 AI 樂器平台（IMPSY），透過兩年第一人稱藝術研究驗證五種智慧樂器設計——發現 remapping 可取代重訓練、小資料模型是可攜式設計資源。</p>
+    <p class="item-meta"><span class="source">arXiv</span><span>2026-04</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://nime.org/proceedings/2026/nime2026_80.pdf" target="_blank">The Aerophone Kit: A Toolkit for Pneumatic Musical Instrument Design</a></p>
+    <p class="paper-authors">Francesco Di Maggio et al.</p>
+    <p class="paper-venue">NIME 2026</p>
+    <p class="item-body">純氣壓迴路驅動的模組化樂器工具包——把氣流同時當作驅動、控制與發聲材料。從軟體機器人研究中發現氣壓圓頂能產生節奏、單向閥能產生哨音。</p>
+    <p class="item-meta"><span class="source">NIME Proceedings</span><span>2026-06</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://arxiv.org/abs/2502.01795" target="_blank">Encountering Robotic Art: Social, Material, and Temporal Processes of Creation with Machines</a></p>
+    <p class="paper-authors">Multiple authors</p>
+    <p class="paper-venue">CHI 2025</p>
+    <p class="item-body">透過半結構式訪談分析機器人藝術家的創作過程——創造力來自藝術家、機器人與觀眾在時空維度中的共構。對「機器人也參與創造」提出 HCI 設計意涵。</p>
+    <p class="item-meta"><span class="source">arXiv / ACM</span><span>2025-02</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://arxiv.org/abs/2506.02606" target="_blank">Multi Layered Autonomy and AI Ecologies in Robotic Art Installations</a></p>
+    <p class="paper-authors">Baoyang Chen, Xian Xu, Huamin Qu (HKUST)</p>
+    <p class="paper-venue">arXiv cs.RO / cs.AI</p>
+    <p class="item-body">大型互動裝置「Symbiosis of Agents」：AI 驅動機械臂與四足機器人放進鏡面場域，以三層階層驅動生態演化——觀眾的呼吸成為共同作者。</p>
+    <p class="item-meta"><span class="source">arXiv</span><span>2025-06</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1571303/full" target="_blank">Soundwalking with AI: Collaborative Creativity as Embodied Learning</a></p>
+    <p class="paper-authors">Martim S. Galvao, Marcel Zaes Sagesser</p>
+    <p class="paper-venue">Frontiers in Computer Science</p>
+    <p class="item-body">用 ChatGPT 作為集體聽覺想像的對話者，學生先共撰聲景腳本再實地錄音。AI 促進協作但缺乏情感深度——具身認知與音樂認知在教育場域的實證。</p>
+    <p class="item-meta"><span class="source">Frontiers</span><span>2025</span></p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 藝文活動 -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">藝文活動</h2>
+    <span class="section-tag">展覽 · 表演 · 工作坊</span>
+  </div>
+
+  <div class="item highlight">
+    <p class="item-title"><a href="https://www.tfam.museum/Exhibition/Exhibition.aspx?ddlLang=zh-tw" target="_blank">北美館《共感：存在的節奏》</a></p>
+    <p class="item-body">11 位/組國內外藝術家探討人與物種、環境、技術的關係，涵蓋生物藝術與科技藝術。</p>
+    <p class="item-meta"><span class="deadline-warn">9/20 結束</span><span>台北 · 北美館一樓</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.opentix.life/event/2054396960022216704" target="_blank">TSO《崔斯坦與伊索德》華格納全本歌劇</a></p>
+    <p class="item-body">指揮 Alexander Liebreich、導演 Christian Rath。Michael Weinius 飾崔斯坦、Lianna Haroutounian 飾伊索德。</p>
+    <p class="item-meta"><span>9/16–19</span><span>台北 · 臺北表演藝術中心大劇院</span><span class="source">OPENTIX</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.bella.tw/articles/movies&culture/59772/2026-september-taiwan-art-exhibitions-guide" target="_blank">王雅慧：旅行者</a></p>
+    <p class="item-body">台灣當代藝術家王雅慧回顧展——錄像裝置、機械動力雕塑、攝影，二十餘年創作歷程。</p>
+    <p class="item-meta"><span>9/12 開展 — 2027/1/3</span><span>台北 · 北美館 2A、2B</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://clab.org.tw/project/future-vision-lab-skyward/" target="_blank">C-LAB Future Vision Lab 晴空季</a></p>
+    <p class="item-body">匯聚台法西匈等地創作者的沉浸式穹頂影像展演，含加拿大 SAT 合作展演。25.4 聲道環繞音響。</p>
+    <p class="item-meta"><span>秋季場次</span><span>台北 · C-LAB 東草坪穹頂劇場</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.bella.tw/articles/movies&culture/59772/2026-september-taiwan-art-exhibitions-guide" target="_blank">冥王星在天蠍座</a></p>
+    <p class="item-body">1983–1995 世代的逃逸之旅。劉玗、吳思嶔透過錄像、聲音、燈光、物件與影像呈現世代記憶與旅行經驗。</p>
+    <p class="item-meta"><span>至 11/22</span><span>新北 · 新北美術館 4A</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.bella.tw/articles/movies&culture/59772/2026-september-taiwan-art-exhibitions-guide" target="_blank">存在的手勢</a></p>
+    <p class="item-body">五位藝術家以行走、修補、刺繡、攝影、陶瓷與錄像書寫，抵抗快速生成。</p>
+    <p class="item-meta"><span>9/12 — 2027/8/29</span><span>高雄 · 金馬賓館當代美術館</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.bella.tw/articles/movies&culture/59772/2026-september-taiwan-art-exhibitions-guide" target="_blank">搖擺阿哥哥——時代跨域者王水河</a></p>
+    <p class="item-body">梳理設計師王水河的跨域創作：字體、廣告、雕塑、室內設計、家具、燈具到建築。免費參觀。</p>
+    <p class="item-meta"><span>至 10/25</span><span>台中 · 臺中市立美術館 D、E 展覽室</span></p>
+  </div>
+
+  <div class="subsection">
+    <h3 class="subsection-title">工作坊 · 課程</h3>
+
+    <div class="item">
+      <p class="item-title"><a href="https://event.culture.tw/mocweb/reg/BOCH/Detail.init.ctr?actId=60022" target="_blank">全國古蹟日——傳藝手作坊</a></p>
+      <p class="item-body">主題「我們都活在未來的古蹟裡」，含互動體驗、傳藝手作工作坊、文資市集、藝文展演。9/10 開放報名。</p>
+      <p class="item-meta"><span>9/19–20</span><span>台中 · 文化部文化資產園區 + 全台 777 處</span></p>
+    </div>
+
+    <div class="item">
+      <p class="item-title"><a href="https://www.cgds.com.tw/news/index" target="_blank">雲門教室 2026 秋季班</a></p>
+      <p class="item-body">身體慢遊主題，含成人律動、熟年律動。多堂連續課程，高鐵沿線各城市教室。</p>
+      <p class="item-meta"><span>9 月開課</span><span>台北 · 桃園 · 新竹 · 台中 · 高雄</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 社群聚會 -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">社群聚會</h2>
+    <span class="section-tag">跟人一起做事</span>
+  </div>
+
+  <div class="item highlight">
+    <p class="item-title"><a href="https://blindegg.kktix.cc/events/sep2026gai" target="_blank">Generative AI 年會小聚 #9</a></p>
+    <p class="item-body">主題「Claude Design × 簡報/資料視覺化」。社群分享 + 實戰經驗。</p>
+    <dl class="meetup-grid">
+      <dt>時間地點</dt><dd>9/10（四）· 台北</dd>
+      <dt>門檻</dt><dd><span class="tag tag-zero">零門檻</span> KKTIX 報名</dd>
+      <dt>相關能力</dt><dd>程式 · 設計</dd>
+      <dt>參與方式</dt><dd>旁聽</dd>
+    </dl>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://hackmd.io/@openlabtaipei/ByOvyGyp8" target="_blank">OpenLab 週三來碗 Arduino</a></p>
+    <p class="item-body">每週三晚間開放，八年以上歷史。Arduino 實作、電子技術、科技藝術跨域合作。</p>
+    <dl class="meetup-grid">
+      <dt>時間地點</dt><dd>每週三 · 寶藏巖國際藝術村 · 台北</dd>
+      <dt>門檻</dt><dd><span class="tag tag-zero">零門檻</span></dd>
+      <dt>相關能力</dt><dd>電子 · 程式</dd>
+      <dt>參與方式</dt><dd>旁聽 · 動手做</dd>
+    </dl>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.yelp.com/biz/sappho-live-%E5%A4%A7%E5%AE%89%E5%8D%80-3" target="_blank">Sappho Live Jazz — 週二 Jazz Jam / 週三 Blues Jam</a></p>
+    <p class="item-body">每週二爵士、每週三藍調。現場 house band，帶樂器上台即可。</p>
+    <dl class="meetup-grid">
+      <dt>時間地點</dt><dd>每週二/三 · 安和路一段 102 巷 · 台北大安</dd>
+      <dt>門檻</dt><dd><span class="tag tag-zero">零門檻</span> 直接到場報名</dd>
+      <dt>相關能力</dt><dd>音樂</dd>
+      <dt>參與方式</dt><dd>旁聽 · 上場</dd>
+    </dl>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.accupass.com/event/2110080707112114878079" target="_blank">酷手 Open Jam（每週五）</a></p>
+    <p class="item-body">每週五 20:30–23:00 開放即興。150 元入場含飲料。帶樂器或純聽。</p>
+    <dl class="meetup-grid">
+      <dt>時間地點</dt><dd>每週五 · 新店順安街 83 號 B · 新北</dd>
+      <dt>門檻</dt><dd><span class="tag tag-zero">零門檻</span></dd>
+      <dt>相關能力</dt><dd>音樂</dd>
+      <dt>參與方式</dt><dd>旁聽 · 上場</dd>
+    </dl>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://wekengo.tw/event/6Z4Zgx/2026-wei-wu-ying-jue-shi-zhou-openjam" target="_blank">衛武營爵士週 Open Jam</a></p>
+    <p class="item-body">爵士週音樂會後的開放即興，25 個名額，需購任一場次票券。</p>
+    <dl class="meetup-grid">
+      <dt>時間地點</dt><dd>9/18–20 · 衛武營榕樹廣場 · 高雄</dd>
+      <dt>門檻</dt><dd><span class="tag tag-low">需購票</span> + 線上報名</dd>
+      <dt>相關能力</dt><dd>音樂</dd>
+      <dt>參與方式</dt><dd>上場</dd>
+    </dl>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://sustainabilityhackathon-tw.org/" target="_blank">永續智慧創新黑客松</a></p>
+    <p class="item-body">永續主題，含企業命題、工作坊與決賽。報名開放中。</p>
+    <dl class="meetup-grid">
+      <dt>時間地點</dt><dd>報名至 11/6 · 初賽 11/18 提交</dd>
+      <dt>門檻</dt><dd><span class="tag tag-apply">需申請</span> 組隊報名</dd>
+      <dt>相關能力</dt><dd>程式 · 設計</dd>
+      <dt>參與方式</dt><dd>組隊</dd>
+    </dl>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 補助 / 駐村 / 徵件 -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">補助 / 駐村 / 徵件</h2>
+    <span class="section-tag">作品輸出</span>
+  </div>
+
+  <div class="item highlight">
+    <p class="item-title"><a href="https://ars.electronica.art/export/en/ecoc2028-ars-biologica-art-science-residency/" target="_blank">Ars Biologica ArtXScience Residency</a></p>
+    <p class="item-body">全額資助藝術科學駐村，與在地科學家合作探索生態議題。駐村地點捷克，2027 年 1 月至 2028 年 4 月。微觀世界系列（生物藝術 × 繪畫）可申請。</p>
+    <p class="item-meta"><span class="deadline-warn">截止 9/28</span><span class="source">Ars Electronica</span></p>
+  </div>
+
+  <div class="item highlight">
+    <p class="item-title"><a href="https://hayamaartistresidency.submittable.com/submit/343511/june-2027-hayama-artist-residency-with-notification-by-dec-15-2026" target="_blank">Hayama Artist Residency（日本葉山）</a></p>
+    <p class="item-body">四週駐村（2027 年 6 月），含來回機票、住宿、$800 津貼。含日本首次畫廊展覽機會。申請費 $95。</p>
+    <p class="item-meta"><span class="deadline-warn">截止 9/30</span><span class="source">Submittable</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://culture.tycg.gov.tw/cl.aspx?n=11217" target="_blank">桃園市視覺藝術活動補助</a></p>
+    <p class="item-body">個人最高 10 萬、團體最高 30 萬。在桃園舉辦的視覺藝術活動可申請。</p>
+    <p class="item-meta"><span>10/1–31 受理（2027 上半年活動）</span><span class="source">桃園市文化局</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://grants.moc.gov.tw/Web/PointList.jsp" target="_blank">文化部獎補助資訊網</a></p>
+    <p class="item-body">各類獎補助計畫統一入口，含科技藝術、數位內容、國際交流等。查看「受理中」分頁找目前開放的項目。</p>
+    <p class="item-meta"><span>隨時更新</span><span class="source">文化部</span></p>
+  </div>
+
+  <div class="subsection">
+    <h3 class="subsection-title">即將到來（提前準備）</h3>
+
+    <div class="item">
+      <p class="item-title"><a href="https://www.ncafroc.org.tw/founding.html" target="_blank">國藝會 2027 第一期常態補助</a></p>
+      <p class="item-body">預計 2027 年 1–2 月開放。含視覺藝術、視聽媒體藝術、多元藝術類別。現在可以開始準備作品計畫書。</p>
+      <p class="item-meta"><span>預計 2027-01 開放</span><span class="source">國藝會</span></p>
+    </div>
+
+    <div class="item">
+      <p class="item-title"><a href="https://clab.org.tw/news/2026-creators-opencall/" target="_blank">C-LAB CREATORS 2027 創作/研發支持計畫</a></p>
+      <p class="item-body">支持具實驗精神的跨領域文化實驗。依代、互動裝置、電子樂器 DIY 皆適合。預計 2026 年 12 月至 2027 年 1 月徵件。</p>
+      <p class="item-meta"><span>預計 2026-12 開放</span><span class="source">C-LAB</span></p>
+    </div>
+  </div>
+</section>
+
+</div><!-- .page -->
+
+<footer class="footer">
+  <div class="footer-inner">
+    Charles 的個人電子報 · 自動產生 · 2026 第 37 週<br>
+    由 Mac Mini cron + Claude API 篩選，GitHub Pages 託管
+  </div>
+</footer>
+
+</body>
+</html>
