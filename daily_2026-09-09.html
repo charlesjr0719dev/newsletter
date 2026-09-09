@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>交叉點 每日 — 2026-09-09</title>
+<title>每日電子報 — 2026.09.09</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
@@ -26,6 +26,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-si
 .section-header{display:flex;align-items:baseline;gap:12px;margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid var(--border-heavy)}
 .section-title{font-family:var(--font-display);font-size:32px;font-weight:300;letter-spacing:-1.6px;line-height:1.1}
 .section-tag{font-size:11px;font-weight:500;color:var(--text-dim);background:var(--surface-tint);border:1px solid var(--accent-2);border-radius:3px;padding:2px 8px;white-space:nowrap}
+.subsection{margin-bottom:24px}
+.subsection-title{font-size:12px;font-weight:500;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;padding-bottom:6px;border-bottom:1px solid var(--border)}
 .item{padding:var(--item-gap) 0;border-bottom:1px solid var(--border)}
 .item:last-child{border-bottom:none}
 .item-title{font-size:15px;font-weight:500;letter-spacing:-0.5px;line-height:1.5;margin-bottom:4px}
@@ -38,11 +40,8 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-si
 .deadline-warn{color:var(--deadline);font-weight:500;font-size:12px}
 .tag{display:inline-block;font-size:11px;font-weight:500;padding:2px 6px;border-radius:3px;margin-right:4px}
 .tag-cat{background:var(--surface-tint);color:var(--text-body)}
-.paper-authors{font-size:12px;color:var(--text-muted);margin-bottom:4px}
-.paper-venue{font-size:11px;font-weight:500;color:var(--accent-2)}
-.meetup-fields{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:12px;color:var(--text-body);margin-top:8px}
-.meetup-fields dt{color:var(--text-dim);font-weight:500}
 .footer{background:var(--surface-2);color:#fff;padding:32px 24px;margin-top:var(--section-gap);font-size:12px;line-height:1.6;margin-left:-24px;margin-right:-24px}
+.footer a{color:var(--text-dim)}
 .footer-inner{max-width:var(--page-max-width);margin:0 auto}
 @media(max-width:600px){
   .date-title{font-size:32px;letter-spacing:-1.6px}
@@ -57,55 +56,163 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-si
 <div class="page">
 
 <header class="page-header">
-  <h1 class="date-title">9/9（三）</h1>
-  <p class="date-sub">2026</p>
+  <h1 class="date-title">9月9日</h1>
+  <p class="date-sub">2026 星期三</p>
   <span class="freq-badge">每日</span>
 </header>
 
+<!-- ═══════════════════════════════════════ -->
+<!-- Section 1: AI -->
+<!-- ═══════════════════════════════════════ -->
 <section class="section">
   <div class="section-header">
     <h2 class="section-title">AI</h2>
     <span class="section-tag">自動化 · 實體化 · 學習力</span>
   </div>
-<div class="item">
-  <p class="item-title"><a href="https://www.reddit.com/r/ClaudeAI/comments/1wazam9/i_built_an_app_where_each_of_my_claude_code/" target="_blank">打造多代理系統：讓每個 Claude Code 代理各司其職</a></p>
-  <p class="item-body">開發者將 Mac mini 上運行的多個 Claude Code 代理各自賦予獨立指令與排程，打造成一個可持續運作的自動化系統，解決了 session 重啟就失去脈絡的痛點，對 AI agent 實作有參考價值。</p>
-  <p class="item-meta"><span class="source">r/ClaudeAI</span><span>2026-09-08</span></p>
-</div>
-<div class="item">
-  <p class="item-title"><a href="https://www.reddit.com/r/ClaudeAI/comments/1wav0oy/i_turned_my_miatas_fuel_gauge_into_an_obdii/" target="_blank">用 Claude Code 把 Miata 油表改成火箭科學遊戲的 Delta-V 讀表</a></p>
-  <p class="item-body">有人利用 AI 輔助編碼，把汽車原廠的 OBD-II 資訊改造成《Kerbal Space Program》的 Delta-V 讀表，直接顯示在車輛原廠面板上，是硬體 DIY 結合 AI 開發的趣味案例。</p>
-  <p class="item-meta"><span class="source">r/ClaudeAI</span><span>2026-09-08</span></p>
-</div>
-<div class="item">
-  <p class="item-title"><a href="https://dev.to/zoipiai/why-i-built-zoipi-cutting-through-ai-directory-bloat-and-indexing-mcp-servers-d7h" target="_blank">Zoipi：解決 MCP Server 目錄爆炸問題的索引工具</a></p>
-  <p class="item-body">隨著 AI 生態系每天冒出大量新工具與 MCP server，作者打造了 Zoipi 來整理與索引這些資源，方便開發者快速找到可用的 MCP server，對想串接自動化工具鏈的人很實用。</p>
-  <p class="item-meta"><span class="source">Dev.to</span><span>2026-09-09</span></p>
-</div>
-<div class="item">
-  <p class="item-title"><a href="https://dev.to/tobyskt2/getting-started-with-mcp-servers-connecting-your-first-ai-tool-3ka4" target="_blank">MCP Server 入門：連接你的第一個 AI 工具</a></p>
-  <p class="item-body">一篇針對 MCP（Model Context Protocol）的入門教學，說明如何讓模型突破限制、連上實際檔案與工具，適合剛要串接 MCP server 做自動化的人快速上手。</p>
-  <p class="item-meta"><span class="source">Dev.to</span><span>2026-09-09</span></p>
-</div>
-<div class="item">
-  <p class="item-title"><a href="https://www.hackster.io/news/this-smart-picture-frame-shows-you-which-birds-are-outside-92a9b10bfddb" target="_blank">智慧相框用本地 AI 辨識窗外鳥叫聲並轉成復古畫作</a></p>
-  <p class="item-body">Fugleramme 以 Raspberry Pi 搭配本地端 AI，即時辨識附近鳥叫聲並將對應鳥類轉成復古風格畫作顯示在 E Ink 螢幕上，是結合 embodied AI 與互動藝術裝置的巧妙範例。</p>
-  <p class="item-meta"><span class="source">Hackster.io</span><span>2026-09-08</span></p>
-</div>
-<div class="item">
-  <p class="item-title"><a href="https://www.hackster.io/news/gone-with-the-wind-not-this-self-balancing-drone-powered-pole-d0a8c455d9b6" target="_blank">用無人機馬達打造的自平衡抗風柱</a></p>
-  <p class="item-body">Peter Ryseck 利用無人機馬達技術打造出可在戶外強風中持續數小時自我平衡站立的柱子，展示了 DIY 機電結構結合動態控制的實體化創作可能性，對互動裝置設計有啟發。</p>
-  <p class="item-meta"><span class="source">Hackster.io</span><span>2026-09-08</span></p>
-</div>
+
+  <div class="subsection">
+    <h3 class="subsection-title">AI 自動化</h3>
+
+    <div class="item">
+      <p class="item-title"><a href="https://www.macrumors.com/2026/09/01/anthropic-claude-fable-5-1/" target="_blank">Claude Fable 5.1 發布 + Managed Agents 更新</a></p>
+      <p class="item-body">Anthropic 9/1 發布 Fable 5.1，快取讀取成本降 75%。同步更新 Managed Agents 基礎設施，新增 ant apply 命令管理 agent 部署。</p>
+      <p class="item-meta"><span class="source">MacRumors / VentureBeat</span><span>2026-09-01</span></p>
+    </div>
+
+    <div class="item">
+      <p class="item-title"><a href="https://blog.modelcontextprotocol.io/posts/2026-07-28/" target="_blank">MCP 規範大改版：走向 Stateless</a></p>
+      <p class="item-body">MCP 協議最大改版，核心轉為無狀態架構，新增路由 header（Mcp-Method / Mcp-Name）與快取 TTL 欄位。Claude 已開始整合新規範。</p>
+      <p class="item-meta"><span class="source">MCP Blog</span><span>2026-07-28</span></p>
+    </div>
+
+    <div class="item">
+      <p class="item-title"><a href="https://www.hackster.io/HiwonderRobot/embodied-ai-on-ros-2-the-openclaw-rosorin-pro-guide-30fd26" target="_blank">OpenClaw + ROS 2：AI Agent 走進實體機器人</a></p>
+      <p class="item-body">ROSClaw 框架將 OpenClaw AI agent 整合進 ROS 2，在 Raspberry Pi / Jetson 上跑 LLM 控制機械臂與自駕小車。</p>
+      <p class="item-meta"><span class="source">Hackster.io</span><span>2026</span></p>
+    </div>
+  </div>
+
+  <div class="subsection">
+    <h3 class="subsection-title">AI 實體化</h3>
+
+    <div class="item">
+      <p class="item-title"><a href="https://news.housebots.com/news/why-small-companion-robots-will-explode-in-2026" target="_blank">小型 AI 陪伴機器人 2026 爆發趨勢</a></p>
+      <p class="item-body">HouseBots 分析：移動式、有個性的桌面陪伴機器人正成為消費機器人第一波大眾市場。ROS 2 + LLM 讓機器人可用自然語言接受高階指令。</p>
+      <p class="item-meta"><span class="source">HouseBots</span><span>2026</span></p>
+    </div>
+
+    <div class="item">
+      <p class="item-title"><a href="https://arxiv.org/abs/2608.20433" target="_blank">人形音樂機器人作為音樂情緒實驗介面</a></p>
+      <p class="item-body">提出用人形機器人做音樂情緒研究的新框架——參數化控制演奏變數、跨試次可重現、可拆解並重組聽覺/視覺/互動成分。</p>
+      <p class="item-meta"><span class="source">arXiv cs.RO</span><span>2026-08</span></p>
+    </div>
+  </div>
+
+  <div class="subsection">
+    <h3 class="subsection-title">AI 學習力</h3>
+
+    <div class="item">
+      <p class="item-title"><a href="https://www.shadow.do/blog/best-ai-plugins-for-obsidian-2026" target="_blank">Obsidian AI 外掛生態 2026 現況</a></p>
+      <p class="item-body">社群五強：Smart Connections（語意搜尋）、Copilot（引用對話）、Text Generator、Smart Composer、Local GPT。重點在脈絡品質而非聊天框。</p>
+      <p class="item-meta"><span class="source">Shadow.do</span><span>2026</span></p>
+    </div>
+  </div>
 </section>
 
-</div>
+<!-- ═══════════════════════════════════════ -->
+<!-- Section 2: 音樂 -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">音樂</h2>
+    <span class="section-tag">競賽 · 工具 · 現場 · 樂器</span>
+  </div>
+
+  <div class="item highlight">
+    <p class="item-title"><a href="https://art.ltn.com.tw/article/breakingnews/5507903" target="_blank">衛武營爵士週 9/18–20</a></p>
+    <p class="item-body">三日三場——9/18 MUSA 阿根廷街頭文化融合、9/19 十座葛萊美獎傳奇小號手 Arturo Sandoval 睽違十年登台（含大師班）、9/20 小林香織 × 陳俊朋。高雄衛武營。</p>
+    <p class="item-meta"><span class="deadline-warn">即將售票</span><span class="source">自由藝文網</span><span>9/18–20 高雄</span></p>
+  </div>
+
+  <div class="item highlight">
+    <p class="item-title"><a href="https://musicinafrica.net/magazine/open-call-global-music-awards-2026/" target="_blank">Global Music Awards 2026 報名截止 9/25</a></p>
+    <p class="item-body">以創意與品質評審（非商業成績），接受器樂 / 世界音樂 / 電子音樂。費用合理。</p>
+    <p class="item-meta"><span class="deadline-warn">截止 9/25</span><span class="source">Music In Africa</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://bedroomproducersblog.com/2026/09/05/audacity-4-update/" target="_blank">Audacity 4.0 正式發布——26 年最大改版</a></p>
+    <p class="item-body">9/3 發布，Qt 全面重建介面。新增非破壞性編輯、片段重疊、片段群組、漣漪編輯。部分 3.x 功能尚未移植。</p>
+    <p class="item-meta"><span class="source">Bedroom Producers Blog</span><span>2026-09-03</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.musicradar.com/guitars/tone3000-has-launched-a-free-open-source-plugin-that-puts-hundreds-of-thousands-of-nam-a2-device-captures-at-your-fingertips" target="_blank">TONE3000：70 萬筆吉他/Bass 音色免費開源</a></p>
+    <p class="item-body">基於 Neural Amp Modeler A2 引擎，支援 VST3/AU/AAX/CLAP/LV2 全平台。內建雙鏈串並聯、立體聲處理與 EQ，月活已破 60 萬。</p>
+    <p class="item-meta"><span class="source">MusicRadar</span><span>2026-09-01</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.unite.ai/google-brings-lyria-3-5-music-generation-to-the-gemini-app-and-api/" target="_blank">Google Lyria 3.5 開放至 Gemini App 與 API</a></p>
+    <p class="item-body">9/4 起不再限於 Google Flow Music。API 定價 $0.08/首，輸出 44.1kHz 立體聲，所有生成音樂內嵌隱形浮水印。</p>
+    <p class="item-meta"><span class="source">Unite.AI</span><span>2026-09-04</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.intercontinentalmusicawards.com/music-competition/" target="_blank">InterContinental Music Awards 開放報名</a></p>
+    <p class="item-body">9/1 開放至 2027/4/15。11/30 前早鳥 75 折，每首 $69。含器樂與世界音樂類別。</p>
+    <p class="item-meta"><span class="source">ICMA</span><span>截止 2027-04-15</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://guthman.gatech.edu/2026-finalists" target="_blank">Guthman 新樂器競賽 2026 入圍作品</a></p>
+    <p class="item-body">喬治亞理工第 28 屆新樂器競賽。入圍包含七呎低音提琴 × Rudraveena 混合體、Cyborg 木管、電磁波轉聲音裝置、改裝腳踏車輪樂器。</p>
+    <p class="item-meta"><span class="source">Georgia Tech</span><span>2026-03</span></p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- Section 3: 跨域 Maker -->
+<!-- ═══════════════════════════════════════ -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">跨域 Maker</h2>
+    <span class="section-tag">互動裝置 · DIY · Creative Coding</span>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://www.hackster.io/Mukesh_Sankhla/pixel-bar-a-open-source-customizable-led-display-1a3516" target="_blank">Pixel Bar：開源可程式化 RGB LED 顯示平台</a></p>
+    <p class="item-body">80×16（1280 顆 WS2812B）LED 矩陣，ESP32-S3 驅動。搭配瀏覽器設計工具，硬體 + 韌體 + 設計工具一體化開源。</p>
+    <p class="item-meta"><span class="source">Hackster.io</span><span>2026</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://blog.adafruit.com/2026/06/19/wled-16-whats-new-led-matrices-adafruitlearningsystem-adafruit/" target="_blank">WLED 16：LED 矩陣終於變成可程式化顯示器</a></p>
+    <p class="item-body">新增 PixelForge 像素繪圖工具、GIF 播放、字型工具與改良 2D 功能。ESP32 驅動的 LED 矩陣可做像素藝術、滾動文字與動畫。</p>
+    <p class="item-meta"><span class="source">Adafruit</span><span>2026-06-19</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://blog.adafruit.com/2026/08/13/32x32-led-matrix-frame-with-diffuser-grid-esp-wroom-32-snap-fit-3dthursday-3dprinting" target="_blank">32×32 LED Matrix Frame：免膠卡扣式互動藝術框</a></p>
+    <p class="item-body">1024 像素 LED 矩陣 + 3D 列印擴散格柵，卡扣設計不需膠水或螺絲。預留 ESP-WROOM-32、麥克風與電源插槽，適合互動聲音裝置原型。</p>
+    <p class="item-meta"><span class="source">Adafruit</span><span>2026-08-13</span></p>
+  </div>
+
+  <div class="item">
+    <p class="item-title"><a href="https://blog.adafruit.com/2026/03/11/an-esp32-based-pixel-art-camera/" target="_blank">PICSY：ESP32 像素藝術相機</a></p>
+    <p class="item-body">Jana Marie Hemsing 的 ESP32 相機，直接拍出色彩索引像素風 PNG 存到 SD 卡。硬體 + 美學的跨域 DIY。</p>
+    <p class="item-meta"><span class="source">Adafruit</span><span>2026-03-11</span></p>
+  </div>
+</section>
+
+</div><!-- .page -->
 
 <footer class="footer">
   <div class="footer-inner">
-    交叉點 · Charles 的跨域電子報 · 2026-09-09<br>
+    Charles 的個人電子報 · 自動產生 · 2026.09.09<br>
     由 Mac Mini cron + Claude API 篩選，GitHub Pages 託管
   </div>
 </footer>
+
 </body>
 </html>
