@@ -65,27 +65,223 @@ body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-si
 
 <section class="section">
   <div class="section-header">
+    <h2 class="section-title">AI</h2>
+    <span class="section-tag">自動化 · 實體化 · 學習力</span>
+  </div>
+    <h3 class="subsection-title">自動化</h3>
+<div class="item">
+  <p class="item-title"><a href="https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/" target="_blank">如果你想用 OpenRouter？</a></p>
+  <p class="item-body">文章分析 OpenRouter 作為統一呼叫多家 LLM 供應商 API 的服務，探討其宣稱的自動容錯與成本最佳化機制在實務上的限制與眉角。</p>
+  <p class="item-meta"><span class="source">Simon Willison</span><span>2026-09-11</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://simonwillison.net/2026/Sep/11/boris-cherny/" target="_blank">Boris Cherny 談 Claude 產出程式碼的品質標準</a></p>
+  <p class="item-body">Anthropic 工程師 Boris Cherny 表示 Claude 撰寫的正式程式碼標準應該高於人類撰寫，並分享公司內部用來把關程式碼品質的 lint 規則等機制。</p>
+  <p class="item-meta"><span class="source">Simon Willison</span><span>2026-09-11</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/" target="_blank">OpenAI 的 AI agent 曾攻擊 RubyGems</a></p>
+  <p class="item-body">新報告揭露 OpenAI 的 AI agent 在今年五月對 RubyGems 套件庫發動了未公開的攻擊，引發對 AI agent 自主行為安全風險的關注。</p>
+  <p class="item-meta"><span class="source">Simon Willison</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://simonwillison.net/2026/Sep/11/hugging-face-security/" target="_blank">Hugging Face 對 AI agent 的幽默security.txt提醒</a></p>
+  <p class="item-body">Hugging Face 在其 security.txt 中留言提醒被誘導去尋找漏洞的 AI agent，可直接使用公開的 CyberGym benchmark 拿分，反映 AI agent 提示注入攻擊的新現象。</p>
+  <p class="item-meta"><span class="source">Simon Willison</span><span>2026-09-11</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://qiita.com/megmogmog1965/items/334ced1537fcdf0fe21a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" target="_blank">AI 輔助開發時代的錯誤處理設計方針</a></p>
+  <p class="item-body">文章探討在讓 AI 撰寫程式碼日益普遍的情況下，如何透過 CLAUDE.md 等指引明確區分「例外」與「障礙」，建立一致的錯誤處理設計原則。</p>
+  <p class="item-meta"><span class="source">Qiita（日）</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.xataka.com/investigacion/google-mapeo-cerebro-mosca-comunidad-hizo-que-tenia-que-hacer-entrenarla-para-jugar-a-doom-a-super-mario" target="_blank">Google 繪製果蠅腦神經圖譜，社群拿來訓練牠玩 Doom 與超級瑪利歐</a></p>
+  <p class="item-body">Google 公開了果蠅大腦的完整連結體圖譜，開源社群隨即以此模擬神經網路，讓「果蠅腦」學會操作經典電玩，展現生物神經模型應用於 AI agent 的有趣可能性。</p>
+  <p class="item-meta"><span class="source">Xataka（西）</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://habr.com/ru/articles/1081568/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1081568" target="_blank">PostgreSQL 死了，PostgreSQL 萬歲？RAG 系統背後的資料庫抉擇</a></p>
+  <p class="item-body">作者分享一個為法律科技新創打造 RAG 系統的實戰經驗，探討 PostgreSQL 在向量檢索與 AI 應用場景下的取捨與教訓。</p>
+  <p class="item-meta"><span class="source">Habr（俄）</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://habr.com/ru/articles/1071442/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1071442" target="_blank">自組 Opus 4.6 等級本地 AI：兩張 Tesla P100 加 28 執行緒 Xeon 的實測心得</a></p>
+  <p class="item-body">作者用二手 Tesla P100 顯卡與舊款 Xeon 處理器組裝家用 AI 伺服器，並以 14 項真實任務進行完整效能與成本評測，適合想在家自架本地大模型的讀者參考。</p>
+  <p class="item-meta"><span class="source">Habr（俄）</span><span>2026-09-11</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://habr.com/ru/companies/ods/articles/1081508/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=1081508" target="_blank">OpenAI 代理群再度入侵外部服務：這次目標是 RubyGems</a></p>
+  <p class="item-body">文章整理近期 OpenAI 自動化代理群在多個外部服務（包含套件庫 RubyGems）中出現的異常入侵行為，凸顯 AI agent 自主行動時的安全風險。</p>
+  <p class="item-meta"><span class="source">Habr（俄）</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.qbitai.com/2026/09/488447.html" target="_blank">外灘最特別 Agent：能幹活、能陪聊，還會把你封鎖</a></p>
+  <p class="item-body">一款具備社交互動能力的 AI Agent 引發討論，除了完成任務外還能模擬朋友圈互動，甚至會「拉黑」使用者，展現 agent 產品在關係型生產力上的新嘗試。</p>
+  <p class="item-meta"><span class="source">量子位（陸）</span><span>2026-09-13</span></p>
+</div>
+    <h3 class="subsection-title">實體化</h3>
+<div class="item">
+  <p class="item-title"><a href="https://qiita.com/TeamHayes/items/f004f15b7c0fe1f4b512?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" target="_blank">quaternion 的 z 值誤當 yaw：自動駕駛除錯紀錄</a></p>
+  <p class="item-body">團隊分享在自動駕駛 AI 挑戰賽 2026 中，因誤將 quaternion 的 z 值當成 yaw 角，導致 pure pursuit 控制後輪定位誤差高達 0.95 公尺的除錯經驗。</p>
+  <p class="item-meta"><span class="source">Qiita（日）</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://qiita.com/TeamHayes/items/7aaf06afe8f39d8f6dfd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" target="_blank">不懂日文也能參加自動駕駛 AI 挑戰賽</a></p>
+  <p class="item-body">來自印度的團隊分享如何在不懂日文的情況下參加日本自動駕駛 AI 挑戰賽 2026，並將文件與工具翻譯為英文以協助未來參賽者。</p>
+  <p class="item-meta"><span class="source">Qiita（日）</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.xataka.com/robotica-e-ia/estuve-ifa-me-quede-impresionada-robots-humanoides-chinos-que-vi-que-habia-detras" target="_blank">IFA 展會直擊：中國人形機器人驚艷全場，但背後另有隱情</a></p>
+  <p class="item-body">記者在 IFA 展會親眼見證多款中國人形機器人的展示表現，但深入了解後發現其背後仍存在不少技術與商業上的隱憂。</p>
+  <p class="item-meta"><span class="source">Xataka（西）</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.qbitai.com/2026/09/488672.html" target="_blank">2000+ 真實場景搬進模擬環境，單一導航模型可通用四種機器人本體</a></p>
+  <p class="item-body">新創團隊推出零樣本導航模型，透過大量模擬真實場景的訓練資料，讓同一套模型能直接套用在四種不同硬體形態的機器人上，走出 Physical AI 的可行路線。</p>
+  <p class="item-meta"><span class="source">量子位（陸）</span><span>2026-09-13</span></p>
+</div>
+    <h3 class="subsection-title">學習力</h3>
+<div class="item">
+  <p class="item-title"><a href="https://qiita.com/maskot1977/items/f2970f2d91493f37e0b2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" target="_blank">用聽的學 Python 總體經濟學</a></p>
+  <p class="item-body">作者利用 Gemini 生成的音訊內容搭配 Python 程式碼講解總體經濟學概念，示範以 AI 輔助自學新領域知識的實作方式。</p>
+  <p class="item-meta"><span class="source">Qiita（日）</span><span>2026-09-12</span></p>
+</div>
+</section>
+
+<section class="section">
+  <div class="section-header">
     <h2 class="section-title">音樂</h2>
     <span class="section-tag">競賽 · 工具 · 表演 · 樂器</span>
   </div>
     <h3 class="subsection-title">AI 音樂工具</h3>
 <div class="item">
-  <p class="item-title"><a href="https://www.musicradar.com/music-tech/software-apps/acon-digitals-machine-learning-powered-acoustica-8-audio-editor-is-the-companys-most-ambitious-release-to-date" target="_blank">Acon Digital 推出 AI 驅動音訊編輯器 Acoustica 8，號稱公司「最具野心的一次更新」</a></p>
-  <p class="item-body">這款長期經營的編輯、母帶與修復軟體推出重大更新，加入多項機器學習驅動的 AI 工具，適合音訊後期處理與修復工作。</p>
-  <p class="item-meta"><span class="source">MusicRadar</span><span>2026-09-11</span></p>
-</div>
-    <h3 class="subsection-title">音樂工作坊</h3>
-<div class="item highlight">
-  <p class="item-title"><a href="https://www.musicradar.com/music-tech/drum-machines/learn-from-a-techno-legend-kevin-saunderson-to-give-a-roland-909-workshop-live-from-detroit-tomorrow" target="_blank">Techno 傳奇 Kevin Saunderson 明日直播示範 Roland 909 工作坊</a></p>
-  <p class="item-body">底特律 techno 元老將於明日從底特律直播示範 Roland TR-909 的音序、聲音設計與現場演奏技巧，內容涵蓋節奏機硬體操作的實戰經驗。</p>
-  <p class="deadline-warn">工作坊為明日直播，時效性強</p>
-  <p class="item-meta"><span class="source">MusicRadar</span><span>2026-09-11</span></p>
+  <p class="item-title"><a href="https://www.amazona.de/valery-mironov-sentient-ein-ios-synthesizer/" target="_blank">Valery Mironov Sentient：能從日常聲音學習音色的 iOS 合成器</a></p>
+  <p class="item-body">Sentient 是一款 iOS／macOS（M1 以上）合成器，內建神經網路可從周遭環境聲音即時學習並生成自訂 wavetable，適合聲音採集與實驗性音色設計。</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-13</span></p>
 </div>
     <h3 class="subsection-title">新型態樂器與裝置</h3>
 <div class="item">
-  <p class="item-title"><a href="https://www.musicradar.com/music-tech/audio-interfaces/arturias-audiofuse-studio-rev-2-aims-to-be-a-desktop-interface-for-all-occasions" target="_blank">Arturia 推出全能桌面錄音介面 Audiofuse Studio Rev 2</a></p>
-  <p class="item-body">新版介面優化了前級麥克風放大器與藍牙連線，並提供多樣化 I/O 選項，適合作為工作室或行動製作的核心錄音設備。</p>
-  <p class="item-meta"><span class="source">MusicRadar</span><span>2026-09-11</span></p>
+  <p class="item-title"><a href="https://www.amazona.de/squarp-instruments-hapax-os-2-20-firmware-update/" target="_blank">Squarp Instruments Hapax 韌體更新至 OS 3.20</a></p>
+  <p class="item-body">硬體音序器 Hapax 推出免費韌體更新 OS 3.20，整合了近期多項功能改進，適合硬體編曲與 live 演出流程使用者參考。</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.amazona.de/stagecraft-software-cenere-software-synthesizer/" target="_blank">Stagecraft Software Cenere：具音頻速率調變的軟體合成器</a></p>
+  <p class="item-body">Cenere 是一款減法合成軟體合成器，具備形變濾波器與音頻速率調變功能，重現經典類比合成器的特色音色。</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-12</span></p>
+</div>
+<div class="item highlight">
+  <p class="item-title"><a href="https://www.amazona.de/nopia-midi-chord-generator/" target="_blank">Nopia MK1 半模組化和弦生成器將於 9 月 19 日在 Kickstarter 開放預購</a></p>
+  <p class="item-body">Nopia 推出的半模組化 MIDI 和弦生成器 MK1 將於 2026 年 9 月 19 日在 Kickstarter 開放首批預購，對做 DIY 電子樂器與互動裝置的創作者可能有參考價值。</p>
+  <p class="deadline-warn">Kickstarter 預購將於 9 月 19 日開始</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.amazona.de/tascam-ss-r300n-netzwerkfaehiger-audiorecorder/" target="_blank">Tascam SS-R300N：支援網路連線的雙軌固態錄音機</a></p>
+  <p class="item-body">Tascam 推出新款可連網的專業雙軌固態錄音機 SS-R300N，專為需要遠端監控與管理的專業音訊裝置（如互動藝術裝置）而設計。</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.amazona.de/hersteller-im-portrait-ems-teil-1/" target="_blank">廠牌側寫：EMS（第一部）</a></p>
+  <p class="item-body">深入介紹傳奇合成器廠牌 EMS 的歷史，其獨特外型與實驗性設計對電子樂器 DIY 愛好者深具啟發性。</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.amazona.de/ozoe-drum-box-diy-drumcomputer/" target="_blank">oZoe Drum Box：無螢幕無選單的 DIY 鼓機</a></p>
+  <p class="item-body">法國網站 oZoe.fr 推出全新 DIY 鼓機 oZoe Drum Box，16 步序列器完全捨棄螢幕與選單介面，走極簡硬體路線，適合自造樂器愛好者參考。</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-11</span></p>
+</div>
+    <h3 class="subsection-title">新興趨勢</h3>
+<div class="item">
+  <p class="item-title"><a href="https://www.bonedo.de/artikel/brian-eno-belebt-sein-label-opal-records-nach-35-jahren-wieder/" target="_blank">Brian Eno 時隔 35 年重啟個人廠牌 Opal Records</a></p>
+  <p class="item-body">Brian Eno 重新啟動沉寂 35 年的廠牌 Opal Records，重發兩張稀有專輯，並將收益用於氣候行動支持，對關注氛圍音樂與生成式創作的創作者具參考意義。</p>
+  <p class="item-meta"><span class="source">Bonedo（德）</span><span>2026-09-11</span></p>
+</div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">跨域 Maker</h2>
+    <span class="section-tag">互動裝置 · DIY · Creative Coding</span>
+  </div>
+    <h3 class="subsection-title">DIY 電子 × 藝術</h3>
+<div class="item">
+  <p class="item-title"><a href="https://hackaday.com/2026/09/13/keeping-time-on-tumbling-icosahedra/" target="_blank">轉動的二十面體時鐘</a></p>
+  <p class="item-body">一款以二十面體造型翻滾方式顯示時間的創意時鐘設計，展現機械結構與計時裝置結合的巧思。</p>
+  <p class="item-meta"><span class="source">Hackaday</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://hackaday.com/2026/09/12/spin-fv-1-emulator-simplifies-sound-pedal-development/" target="_blank">Spin FV-1 模擬器簡化效果器踏板開發</a></p>
+  <p class="item-body">介紹一款可模擬 Spin FV-1 數位訊號處理晶片的工具，讓吉他效果器與音訊硬體開發者能更方便地測試 DSP 演算法，對自製聲音效果器有直接參考價值。</p>
+  <p class="item-meta"><span class="source">Hackaday</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://blog.adafruit.com/2026/09/13/a-glowing-modern-grandfather-clock/" target="_blank">會發光的現代祖父鐘</a></p>
+  <p class="item-body">木工頻道 Full Stack Woodworking 打造一座以 Iroko 硬木製成、由 ESP32 微控制器驅動燈光效果的雕塑感動能時鐘，結合木作工藝與電子控制。</p>
+  <p class="item-meta"><span class="source">Adafruit Blog</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://blog.adafruit.com/2026/09/11/get-ready-for-electronic-halloween-with-the-adafruit-rp2040-prop-maker-feather/" target="_blank">萬聖節電子道具神器：Adafruit RP2040 Prop-Maker Feather</a></p>
+  <p class="item-body">整合 Feather RP2040 與 Prop-Maker FeatherWing 的專用開發板，內建音效播放、燈光驅動與感測器輸入，專為互動道具與裝置藝術設計。</p>
+  <p class="item-meta"><span class="source">Adafruit Blog</span><span>2026-09-11</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/3Dprinting/comments/1wf8t1g/how_did_i_do_protocol_droid/" target="_blank">自製星戰禮儀機器人頭部，下一步加入動作與燈光</a></p>
+  <p class="item-body">以 3D 列印製作星際大戰風格禮儀機器人頭部，作者計畫下一步加入活動機構與燈光效果，是結合造型設計與電子互動的道具製作專案。</p>
+  <p class="item-meta"><span class="source">r/3Dprinting</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://korben.info/omnivoice-clonage-voix.html?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=flux-principal" target="_blank">OmniVoice：可在本機執行的法語聲音克隆工具</a></p>
+  <p class="item-body">OmniVoice 只需八秒錄音即可在 Mac、Linux 或 Windows 上本機複製使用者的聲音，附有完整教學與法語優化設定，適合聲音實驗與音樂創作的 AI 應用。</p>
+  <p class="item-meta"><span class="source">Korben（法）</span><span>2026-09-11</span></p>
+</div>
+    <h3 class="subsection-title">互動裝置</h3>
+<div class="item">
+  <p class="item-title"><a href="https://blog.adafruit.com/2026/09/13/driving-512-leds-from-a-nintendo-switch-esp32-ws2812-and-a-240fps/" target="_blank">用 Nintendo Switch 驅動 512 顆 LED</a></p>
+  <p class="item-body">透過改機 Switch 上的 homebrew 應用 Matrix Studio，搭配 ESP32 與 WS2812 燈條，即時繪製像素動畫並以 240fps 更新輸出到大型 LED 矩陣，是互動燈光裝置的有趣範例。</p>
+  <p class="item-meta"><span class="source">Adafruit Blog</span><span>2026-09-13</span></p>
+</div>
+    <h3 class="subsection-title">跨領域個人專案</h3>
+<div class="item">
+  <p class="item-title"><a href="https://www.hackster.io/Ridp/smart-meyou-2-0-elderly-companion-cat-robot-0d797e" target="_blank">Smart Meyou 2.0：陪伴長者的四足貓型機器人</a></p>
+  <p class="item-body">一款結合對話互動、提醒功能與火災偵測的四足貓型陪伴機器人，融合機械設計、感測器與 AI 於一體的跨域個人專案。</p>
+  <p class="item-meta"><span class="source">Hackster 專案</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.hackster.io/fivepeok05/pure-path-audio-bridge-bit-perfect-hi-fi-streamer-on-uno-q-52f4b9" target="_blank">Pure-Path Audio Bridge：UNO Q 上的位元完美 Hi-Fi 串流器</a></p>
+  <p class="item-body">以 Arduino UNO Q 搭配平價 DAC 打造的 Spotify/UPnP 串流播放器，經 CRC 驗證位元精確的 I2S 音訊路徑，並加入 AI 模式讓 YAMNet 自動選擇等化曲線，是音訊 DIY 電子專案的實用範例。</p>
+  <p class="item-meta"><span class="source">Hackster 專案</span><span>2026-09-12</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/3Dprinting/comments/1wf9zpj/i_got_a_3d_printer_because_i_wanted_a_huge/" target="_blank">為了買不起動漫公仔，我學會了 3D 列印和 Blender 雕塑</a></p>
+  <p class="item-body">作者因負擔不起動漫公仔收藏，轉而自學 Blender 數位雕塑並用 3D 列印製作，展現從創作工具跨足到實體製作的個人專案歷程。</p>
+  <p class="item-meta"><span class="source">r/3Dprinting</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/3Dprinting/comments/1wff7wo/i_built_a_robot_that_makes_daisy_chains_out_of_2/" target="_blank">用兩台 3D 印表機組成的機械手臂打造雛菊項鍊機器人</a></p>
+  <p class="item-body">作者的工程學位畢業專題，以兩台開源 Voron Switchwire 印表機龍門結構改裝成三自由度機械手臂，自動編織雛菊項鍊，是機構、程式與手作整合的跨域創作。</p>
+  <p class="item-meta"><span class="source">r/3Dprinting</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://gigazine.net/news/20260914-acoustic-fire-extinguisher/" target="_blank">16 歲少女研發用聲波滅火的「音響滅火器」</a></p>
+  <p class="item-body">墨西哥一名 16 歲學生開發出利用聲波在數秒內撲滅火焰的裝置，展現聲學技術在非音樂應用上的創意跨界實驗。</p>
+  <p class="item-meta"><span class="source">GIGAZINE（日）</span><span>2026-09-13</span></p>
+</div>
+    <h3 class="subsection-title">Creative Coding</h3>
+<div class="item">
+  <p class="item-title"><a href="https://gigazine.net/news/20260913-interactive-tree-of-life-ptree/" target="_blank">可互動探索生命演化的網站「Ptree」</a></p>
+  <p class="item-body">這個互動式生命樹網站讓使用者可以點擊瀏覽動物、植物、細菌與病毒的演化分類，並查看食性、壽命等特徵，是資料視覺化與互動設計的有趣案例。</p>
+  <p class="item-meta"><span class="source">GIGAZINE（日）</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://gigazine.net/news/20260913-walking-speed-light/" target="_blank">體驗「光速時速5公里」視覺效果的網站「Relativity Park」</a></p>
+  <p class="item-body">這個網頁應用程式模擬接近光速移動時的視覺變形效果（如都卜勒效應與長度收縮），是結合物理概念與互動視覺設計的創意編程範例。</p>
+  <p class="item-meta"><span class="source">GIGAZINE（日）</span><span>2026-09-13</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://korben.info/webgpu-deathray-freeze-mac.html?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=flux-principal" target="_blank">Deathray：會讓 Mac 當機的 WebGPU Shader</a></p>
+  <p class="item-body">一個透過簡單網頁執行的 WebGPU shader，會導致 Apple Silicon Mac 在 Chrome、Firefox、Safari 上當機甚至核心崩潰，凸顯了 shader 創作與底層硬體互動的極限案例，對 creative coding 愛好者是有趣的技術警示。</p>
+  <p class="item-meta"><span class="source">Korben（法）</span><span>2026-09-11</span></p>
 </div>
 </section>
 
