@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>交叉點 每日 — 2026-09-19</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#f6f6f4;--surface:#fff;--surface-2:#2c2c26;--surface-tint:#e8e7d9;
+  --border:#d0d0c8;--border-heavy:#57584b;
+  --text:#000;--text-body:#6d6e5e;--text-dim:#979886;--text-muted:#aaab9c;
+  --accent:#fff347;--accent-2:#aaa674;--deadline:#e85d3a;
+  --font-display:'Fraunces','Noto Serif TC',Georgia,serif;
+  --font-body:'IBM Plex Mono','PingFang TC',monospace;
+  --section-gap:48px;--item-gap:16px;--page-max-width:720px;
+}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:14px;line-height:1.6;letter-spacing:-0.5px}
+.page{max-width:var(--page-max-width);margin:0 auto;padding:40px 24px 0}
+.page-header{margin-bottom:var(--section-gap)}
+.date-title{font-family:var(--font-display);font-size:48px;font-weight:300;letter-spacing:-2.4px;line-height:1.0;margin-bottom:8px}
+.date-sub{font-size:13px;color:var(--text-dim);margin-bottom:12px}
+.freq-badge{display:inline-block;font-size:11px;font-weight:500;text-transform:uppercase;color:var(--text-body);background:var(--surface-tint);border:1px solid var(--accent-2);border-radius:3px;padding:3px 10px;letter-spacing:1px}
+.section{margin-bottom:var(--section-gap)}
+.section-header{display:flex;align-items:baseline;gap:12px;margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid var(--border-heavy)}
+.section-title{font-family:var(--font-display);font-size:32px;font-weight:300;letter-spacing:-1.6px;line-height:1.1}
+.section-tag{font-size:11px;font-weight:500;color:var(--text-dim);background:var(--surface-tint);border:1px solid var(--accent-2);border-radius:3px;padding:2px 8px;white-space:nowrap}
+.subsection-title{font-size:12px;font-weight:500;color:var(--text-dim);text-transform:uppercase;letter-spacing:1px;margin:24px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.item{padding:var(--item-gap) 0;border-bottom:1px solid var(--border)}
+.item:last-child{border-bottom:none}
+.item-title{font-size:15px;font-weight:500;letter-spacing:-0.5px;line-height:1.5;margin-bottom:4px}
+.item-title a{color:var(--text);text-decoration:underline;text-decoration-color:var(--border);text-underline-offset:3px;transition:text-decoration-color .2s}
+.item-title a:hover{text-decoration-color:var(--accent)}
+.item-body{font-size:13px;color:var(--text-body);line-height:1.6;margin-bottom:6px}
+.item-meta{font-size:12px;color:var(--text-dim);display:flex;gap:12px;flex-wrap:wrap}
+.item-meta .source{color:var(--text-muted)}
+.item.highlight{border-left:4px solid var(--accent);padding-left:16px;margin-left:-16px}
+.deadline-warn{color:var(--deadline);font-weight:500;font-size:12px}
+.tag{display:inline-block;font-size:11px;font-weight:500;padding:2px 6px;border-radius:3px;margin-right:4px}
+.tag-cat{background:var(--surface-tint);color:var(--text-body)}
+.paper-authors{font-size:12px;color:var(--text-muted);margin-bottom:4px}
+.paper-venue{font-size:11px;font-weight:500;color:var(--accent-2)}
+.meetup-fields{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:12px;color:var(--text-body);margin-top:8px}
+.meetup-fields dt{color:var(--text-dim);font-weight:500}
+.footer{background:var(--surface-2);color:#fff;padding:32px 24px;margin-top:var(--section-gap);font-size:12px;line-height:1.6;margin-left:-24px;margin-right:-24px}
+.footer-inner{max-width:var(--page-max-width);margin:0 auto}
+@media(max-width:600px){
+  .date-title{font-size:32px;letter-spacing:-1.6px}
+  .section-title{font-size:24px;letter-spacing:-1.2px}
+  .section-header{flex-direction:column;gap:6px}
+  .page{padding:24px 16px 0}
+  .footer{margin-left:-16px;margin-right:-16px;padding:24px 16px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="page-header">
+  <h1 class="date-title">9/19（六）</h1>
+  <p class="date-sub">2026</p>
+  <span class="freq-badge">每日</span>
+</header>
+
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">AI</h2>
+    <span class="section-tag">自動化 · 實體化 · 學習力</span>
+  </div>
+    <h3 class="subsection-title">自動化</h3>
+<div class="item">
+  <p class="item-title"><a href="https://qiita.com/suwa_nobu/items/6b00e31860d275e7b6b4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" target="_blank">Claude Code 拒絕編輯的檔案，改用 tee 指令四次都成功寫入</a></p>
+  <p class="item-body">文章記錄 Claude Code 2.1.269 版的一個 bug 修復：先前 Edit() 的拒絕規則與寫入路徑檢查未套用到透過 Bash 指令（如 tee）寫入的檔案，形成繞過限制的漏洞。</p>
+  <p class="item-meta"><span class="source">Qiita（日）</span><span>2026-09-14</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://qiita.com/nolanlover0527/items/86646f9c366e79016f26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items" target="_blank">AI 代理常見術語 20 選：MCP、HITL、A2A 等一次搞懂</a></p>
+  <p class="item-body">整理 MCP、HITL、A2A、harness 等 AI 代理領域常見但容易搞混的術語，適合想快速補齊 AI agent 背景知識的開發者。</p>
+  <p class="item-meta"><span class="source">Qiita（日）</span><span>2026-09-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.qbitai.com/2026/09/489466.html" target="_blank">手機一句話指令，AI 代理自動執行完整流程</a></p>
+  <p class="item-body">使用者只需下達一句話指令，AI 代理 YOYO 便能接管手機並自動完成長達百步的操作流程，展示了 agent 在真實任務自動化上的實作案例。</p>
+  <p class="item-meta"><span class="source">量子位（陸）</span><span>2026-09-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/zeroweight-ai/ZeroTTS" target="_blank">zeroweight-ai/ZeroTTS</a></p>
+  <p class="item-body">新興文字轉語音模型 ZeroTTS，34 個讚、1781 次下載，主打零樣本語音克隆。</p>
+  <p class="item-meta"><span class="source">HF 語音合成</span><span>2026-08-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/k2-fsa/OmniVoice" target="_blank">k2-fsa/OmniVoice</a></p>
+  <p class="item-body">多語言全能語音模型 OmniVoice 累積 1386 個讚、逾 126 萬次下載，可作為多語系語音互動的基礎。</p>
+  <p class="item-meta"><span class="source">HF 語音合成</span><span>2026-03-30</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/m-a-p/YuE2-3B" target="_blank">m-a-p/YuE2-3B</a></p>
+  <p class="item-body">文字生成音樂模型 YuE2-3B 在 Hugging Face 上熱門，549 個讚、6716 次下載，可直接由文字提示生成完整歌曲。</p>
+  <p class="item-meta"><span class="source">HF 音樂與音效生成</span><span>2026-09-09</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank">Lightricks/LTX-2.5</a></p>
+  <p class="item-body">Lightricks 的生成式音訊模型 LTX-2.5 累積近 4000 個讚、158 萬次下載，可用於配樂或音效自動生成。</p>
+  <p class="item-meta"><span class="source">HF 音樂與音效生成</span><span>2026-07-23</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/audio-cpp/Yue2-3B-GGUF" target="_blank">audio-cpp/Yue2-3B-GGUF</a></p>
+  <p class="item-body">YuE2-3B 音樂生成模型的 GGUF 量化版本，方便在本地端低資源環境跑音樂生成。</p>
+  <p class="item-meta"><span class="source">HF 音樂與音效生成</span><span>2026-09-10</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora" target="_blank">larryvrh/MiniMax-H3-Turbo-Lora</a></p>
+  <p class="item-body">MiniMax H3 音訊生成模型的 Turbo LoRA 微調版，977 個讚、逾 22 萬次下載，加速推論速度。</p>
+  <p class="item-meta"><span class="source">HF 音樂與音效生成</span><span>2026-08-05</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/MiniMaxAI/MiniMax-Music3" target="_blank">MiniMaxAI/MiniMax-Music3</a></p>
+  <p class="item-body">MiniMax 推出的第三代音樂生成模型，1382 個讚、17819 次下載，主打高品質完整曲目生成。</p>
+  <p class="item-meta"><span class="source">HF 音樂與音效生成</span><span>2026-08-07</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/stabilityai/stable-audio-3-medium" target="_blank">stabilityai/stable-audio-3-medium</a></p>
+  <p class="item-body">Stability AI 的第三代音訊生成模型中型版，326 個讚、逾 9.7 萬次下載，適合音效與配樂創作。</p>
+  <p class="item-meta"><span class="source">HF 音樂與音效生成</span><span>2026-05-17</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/Lightricks/LTX-2.3" target="_blank">Lightricks/LTX-2.3</a></p>
+  <p class="item-body">LTX 音訊生成模型舊版本仍維持高使用量，累積逾 112 萬次下載。</p>
+  <p class="item-meta"><span class="source">HF 音樂與音效生成</span><span>2026-03-04</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/nvidia/personaplex-7b-v1" target="_blank">nvidia/personaplex-7b-v1</a></p>
+  <p class="item-body">NVIDIA 推出的音訊對音訊模型 PersonaPlex，累積 2736 個讚、逾 10 萬次下載，可用於聲音角色轉換等應用。</p>
+  <p class="item-meta"><span class="source">HF 音訊處理與分離</span><span>2025-12-31</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://huggingface.co/nvidia/RE-USE" target="_blank">nvidia/RE-USE</a></p>
+  <p class="item-body">NVIDIA 的音訊重製/再利用模型 RE-USE，110 個讚、逾 1.2 萬次下載，適合音軌重組實驗。</p>
+  <p class="item-meta"><span class="source">HF 音訊處理與分離</span><span>2026-03-17</span></p>
+</div>
+    <h3 class="subsection-title">實體化</h3>
+<div class="item">
+  <p class="item-title"><a href="https://www.qbitai.com/2026/09/489460.html" target="_blank">無問芯穹聯合清華、上交開源具身端側推理引擎 APXInf</a></p>
+  <p class="item-body">無問芯穹與清華、上海交大合作開源具身智能端側推理引擎 APXInf，效能超越 Pi 0.5 達到 SOTA，瞄準具身智能規模化落地的最後一哩路，對 DIY 機器人與嵌入式 AI 應用者具參考價值。</p>
+  <p class="item-meta"><span class="source">量子位（陸）</span><span>2026-09-15</span></p>
+</div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">音樂</h2>
+    <span class="section-tag">競賽 · 工具 · 表演 · 樂器</span>
+  </div>
+    <h3 class="subsection-title">新型態樂器與裝置</h3>
+<div class="item">
+  <p class="item-title"><a href="https://www.amazona.de/audient-horizon-8p-horizon-16-horizon-32-audiointerfaces/" target="_blank">Audient 推出三款 Thunderbolt 3 音訊介面 Horizon 系列</a></p>
+  <p class="item-body">英國廠牌 Audient 擴充產品線，推出 Horizon 8P、Horizon 16 與 Horizon 32 三款支援 32bit/192kHz 錄音規格的音訊介面。</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.amazona.de/test-yuer-ba-10e-e-und-akustik-gitarren-combo/" target="_blank">評測：Yuer BA-10E 電木吉他兩用藍牙音箱</a></p>
+  <p class="item-body">Yuer BA-10E 是電池供電的迷你吉他音箱，支援藍牙連接，主打低成本、免插電的居家或戶外練習體驗。</p>
+  <p class="item-meta"><span class="source">Amazona（德）</span><span>2026-09-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.bonedo.de/artikel/arturia-minifreak-update-5-0-jetzt-mit-sample-wavetable-import/" target="_blank">Arturia MiniFreak 韌體更新 5.0：新增取樣與 Wavetable 匯入功能</a></p>
+  <p class="item-body">Arturia 為 MiniFreak 合成器推出 5.0 韌體更新，終於實現了長期承諾的取樣（Sample）與 Wavetable 匯入功能，擴展了聲音設計的可能性。</p>
+  <p class="item-meta"><span class="source">Bonedo（德）</span><span>2026-09-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.bonedo.de/artikel/mayer-emi-md850-vibes-aurora-5-0-update-ab-sofort-erhaeltlich/" target="_blank">Mayer EMI MD850 Vibes：Aurora 5.0 更新現已推出</a></p>
+  <p class="item-body">Mayer EMI 為 MD850 Vibes 合成器推出免費韌體更新 Aurora 5.0，官方稱其為該廠牌史上最大規模的一次功能升級。</p>
+  <p class="item-meta"><span class="source">Bonedo（德）</span><span>2026-09-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.bonedo.de/artikel/elektron-monomachine-und-machinedrum-gibt-es-jetzt-als-plug-in/" target="_blank">Elektron Monomachine 與 MachineDrum 復活為插件</a></p>
+  <p class="item-body">自 2016 年停產以來，Elektron 傳奇電子樂器 MonoMachine 與 MachineDrum 由開發者 Joe Landers 以插件形式重新問世，讓經典電子音樂機器得以在 DAW 中復活。</p>
+  <p class="item-meta"><span class="source">Bonedo（德）</span><span>2026-09-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.musicradar.com/music-tech/this-is-just-the-beginning-nopia-launches-on-kickstarter-and-hits-usd1-4m-in-24-hours" target="_blank">Nopia 半模組化和聲生成器 Kickstarter 開賣即熱賣，24 小時募得 140 萬美元</a></p>
+  <p class="item-body">這款「半模組化和聲生成器」歷經三年原型測試後終於開放預購，24 小時內募資即突破 140 萬美元，MusicTech 也專訪了創辦人 Martin Grieco 與 Rocío Gal。</p>
+  <p class="item-meta"><span class="source">MusicRadar / MusicTech</span><span>2026-09-16</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.musicradar.com/drums/electronic-drums/millenium-drums-new-flagship-mps-1500-hybrid-x-electronic-drum-set-will-turn-some-heads" target="_blank">Millenium 推出旗艦級 MPS-1500 Hybrid-X 電子鼓組</a></p>
+  <p class="item-body">新款 Nexus 多功能打擊墊在親民價位下塞入大量功能，值得電子鼓與互動裝置愛好者關注。</p>
+  <p class="item-meta"><span class="source">MusicRadar</span><span>2026-09-16</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.musicradar.com/guitars/gibson-x-baggs-hifi-dna-acoustic-guitar-pickup" target="_blank">Gibson x Baggs 推出 HiFi DNA 拾音系統，主打「前所未有的真實感」</a></p>
+  <p class="item-body">這套橋板拾音系統已導入多款 Gibson 木吉他，每組感應器都配有獨立 Class A 前級電路，提升擴音木吉他的音色細節。</p>
+  <p class="item-meta"><span class="source">MusicRadar</span><span>2026-09-16</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.musicradar.com/guitars/electro-harmonix-adrian-belew-echoflanger" target="_blank">Electro-Harmonix 與 Adrian Belew 合作復刻經典 Echoflanger 調變效果器</a></p>
+  <p class="item-body">這款限量版類比調變效果器新增兩種 Belew 把玩原版時發現的新模式，適合追求大膽音色實驗的玩家。</p>
+  <p class="item-meta"><span class="source">MusicRadar</span><span>2026-09-16</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://cdm.link/motu-dp12-arrives-adding-dolby-atmos-and-more-to-a-daw-classic/" target="_blank">MOTU DP12 上線，為經典 DAW 加入 Dolby Atmos 支援</a></p>
+  <p class="item-body">MOTU Digital Performer 一向低調卻穩定地被用於配樂與後期製作，DP12 帶來完整的 Dolby Atmos 支援、新的編曲條與其他實用功能。</p>
+  <p class="item-meta"><span class="source">CDM</span><span>2026-09-16</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.gearnews.com/boutique-microphones-studio/" target="_blank">手工精品麥克風巡禮：擴充你的錄音麥克風櫃</a></p>
+  <p class="item-body">文章介紹多家手工訂製麥克風品牌，適合想在錄音專案中嘗試獨特音色的創作者。</p>
+  <p class="item-meta"><span class="source">Gearnews</span><span>2026-09-16</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.gearnews.com/panorama-whitekirk-sounds-presets-synths/" target="_blank">Panorama Whitekirk：12 世紀教堂錄製的空靈吉他音色包</a></p>
+  <p class="item-body">本週音色包精選以在古老教堂中錄製的取樣吉他為主，另附多款經典類比合成器與 Moog Muse 音色。</p>
+  <p class="item-meta"><span class="source">Gearnews</span><span>2026-09-16</span></p>
+</div>
+    <h3 class="subsection-title">新興趨勢</h3>
+<div class="item">
+  <p class="item-title"><a href="https://rollingstoneindia.com/play-it-by-ear-offline-music-discovery-experiences-india/" target="_blank">線下音樂體驗如何重塑藝人發掘方式</a></p>
+  <p class="item-body">報導探討新一波音樂節、展演空間與聆聽體驗如何以社群與好奇心為核心，對抗演算法主導的藝人發掘模式。</p>
+  <p class="item-meta"><span class="source">Rolling Stone India</span><span>2026-09-15</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.musicradar.com/music-industry/streaming-sharing/with-tracks-over-10-minutes-forget-about-it-nothings-going-to-happen-on-streaming-services-can-ambient-music-survive-the-era-of-the-one-minute-song" target="_blank">在一分鐘神曲當道的串流時代，Ambient 音樂如何生存？</a></p>
+  <p class="item-body">文章探討在注重短促、即時反饋的串流演算法下，緩慢展開的環境音樂該如何找到自己的位置。</p>
+  <p class="item-meta"><span class="source">MusicRadar</span><span>2026-09-16</span></p>
+</div>
+    <h3 class="subsection-title">AI 音樂工具</h3>
+<div class="item">
+  <p class="item-title"><a href="https://www.musicradar.com/music-tech/universal-audio-launches-a-major-update-to-the-free-luna-daw-that-the-company-is-calling-its-biggest-software-release-to-date" target="_blank">Universal Audio 免費 DAW「Luna」推出重大更新，新增 AI 分軌與和弦擷取</a></p>
+  <p class="item-body">Luna 3.0 被 UA 稱為「至今最大規模的軟體更新」，加入 AI 人聲分軌、歌詞轉譯與和弦擷取等功能，並推出簡化版的 Luna Play。</p>
+  <p class="item-meta"><span class="source">MusicRadar / Bedroom Producers Blog / MusicTech</span><span>2026-09-16</span></p>
+</div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">跨域 Maker</h2>
+    <span class="section-tag">互動裝置 · DIY · Creative Coding</span>
+  </div>
+    <h3 class="subsection-title">DIY 電子 × 藝術</h3>
+<div class="item">
+  <p class="item-title"><a href="https://blog.adafruit.com/2026/09/17/cyd-usb-case-compact-snap-fit-for-esp32-3dthursday-3dprinting/" target="_blank">CYD USB 外殼：ESP32 顯示模組的緊湊卡扣式殼</a></p>
+  <p class="item-body">為 ESP32-2432S028R（CYD）Type-C 版本設計的緊湊 3D 列印卡扣外殼，附完整連接埠開孔與散熱設計，適合自製互動裝置的外殼製作參考。</p>
+  <p class="item-meta"><span class="source">Adafruit Blog</span><span>2026-09-17</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://korben.info/mechacon-ps2-craque-retro-ingenierie.html?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=flux-principal" target="_blank">MechaCon 韌體破解：PS2 防拷晶片四年逆向工程終於攻破</a></p>
+  <p class="item-body">初代 PS2 的 MechaCon 安全晶片經過四年的去封裝與顯微鏡分析後韌體終於被破解，雖然不是光碟模擬器，但這是一次硬體逆向工程的深度案例，對玩硬體 hacking 的 maker 相當有參考價值。</p>
+  <p class="item-meta"><span class="source">Korben（法）</span><span>2026-09-17</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://sspai.com/post/114451" target="_blank">BeatBox 雪漫天外殼客製化製作指南</a></p>
+  <p class="item-body">延續少數派與飛傲聯名 CD 機盖板設計大賽的創意，這篇文章詳細說明如何把參賽者設計的圖案實際製作成可安裝的外殼，涉及材料選擇與加工流程，對想把數位設計轉化為實體硬體外觀的 maker 有參考價值。</p>
+  <p class="item-meta"><span class="source">少數派（陸）</span><span>2026-09-17</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://hackaday.com/2026/09/18/making-a-digital-music-player-for-cassette-decks/" target="_blank">把卡帶隨身聽改造成數位音樂播放器</a></p>
+  <p class="item-body">重現卡帶與MP3過渡時期常見的「偽卡帶數位播放器」，將數位音樂裝進真實卡帶殼中透過卡座播放，適合喜歡復古載體與DIY電子結合的玩法。</p>
+  <p class="item-meta"><span class="source">Hackaday</span><span>2026-09-18</span></p>
+</div>
+    <h3 class="subsection-title">互動裝置</h3>
+<div class="item">
+  <p class="item-title"><a href="https://korben.info/fugleramme-detection-oiseaux-eink.html?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=flux-principal" target="_blank">Fugleramme：會畫出牠聽到的鳥的電子畫框</a></p>
+  <p class="item-body">Fugleramme 是一個掛牆的 e-ink 裝置，結合花園麥克風收音與聲音辨識技術，將偵測到的鳥類以十九世紀手繪風格圖鑑呈現在螢幕上，是聲音感測與視覺輸出結合的絕佳互動裝置範例。</p>
+  <p class="item-meta"><span class="source">Korben（法）</span><span>2026-09-17</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://hackaday.com/2026/09/18/brain-control-your-appliance-sort-of/" target="_blank">腦波感測套件讓你「意念控制」家電</a></p>
+  <p class="item-body">Upside Down Labs 推出的 Neuro PlayGround Lite (NPG Lite) 套件可讀取腦波/生理訊號來觸發家電開關，是低成本生物訊號互動裝置的入門素材。</p>
+  <p class="item-meta"><span class="source">Hackaday</span><span>2026-09-18</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.hackster.io/calvinsewornu123/robot-eyes-smooth-animated-eyes-on-raspberry-pi-9deff6" target="_blank">Raspberry Pi 打造流暢動畫機器人眼睛</a></p>
+  <p class="item-body">使用 Raspberry Pi 搭配 1.8 吋 ST7735 TFT 螢幕打造輕量級的表情動畫引擎，讓機器人眼睛能流暢做出各種情緒動畫，適合互動裝置的擬人化表情設計參考。</p>
+  <p class="item-meta"><span class="source">Hackster 專案</span><span>2026-09-17</span></p>
+</div>
+    <h3 class="subsection-title">跨領域個人專案</h3>
+<div class="item">
+  <p class="item-title"><a href="https://makezine.com/article/digital-fabrication/3d-printing-workshop/filadc-i10-cabinet-dries-filament-in-the-background/" target="_blank">FilaDC i10 線材乾燥收納櫃</a></p>
+  <p class="item-body">Inslogic/Sunlu 推出的線材除濕櫃 FilaDC i10，用更溫和的方式解決3D列印線材受潮導致的斷裂拉絲問題，適合長期使用列印機做裝置外殼或零件的創作者。</p>
+  <p class="item-meta"><span class="source">Make:</span><span>2026-09-18</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.hackster.io/RzLi/petoi-quaddle-d09f60" target="_blank">Petoi Quaddle：3萬隻機器狗教會的自由度課</a></p>
+  <p class="item-body">開發者分享從量產3萬隻機器狗過程中，對機構自由度設計與產品出貨的實務心得，對做互動機構裝置的人有參考價值。</p>
+  <p class="item-meta"><span class="source">Hackster 專案</span><span>2026-09-17</span></p>
+</div>
+    <h3 class="subsection-title">Creative Coding</h3>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/creativecoding/comments/1wjqwn4/after_8_months_of_thinking_and_3_months_of/" target="_blank">biomes v1.0.0-beta 正式上線</a></p>
+  <p class="item-body">作者歷經8個月構思、3個月開發，完成 creative coding 生態系模擬作品 biomes 的 beta 版本，是長期個人專案的完整發表。</p>
+  <p class="item-meta"><span class="source">r/creativecoding</span><span>2026-09-18</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/creativecoding/comments/1wis1zp/mountain_trance_valley_one_of_9_explorable_3d/" target="_blank">獨立開發的9個可探索3D世界之一：Mountain Trance Valley</a></p>
+  <p class="item-body">使用 Three.js 打造的夜間山谷 trance 音樂節場景，是作者獨立製作的9個可探索3D世界系列之一，結合音樂節氛圍與生成式場景設計。</p>
+  <p class="item-meta"><span class="source">r/creativecoding</span><span>2026-09-17</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/creativecoding/comments/1wixrhw/livecoding_a_full_song_from_scratch/" target="_blank">從零開始的 Live Coding 音樂創作實錄</a></p>
+  <p class="item-body">展示現場即時編碼（live coding）從無到有完成一首完整歌曲的過程，是程式與音樂即興結合的實例。</p>
+  <p class="item-meta"><span class="source">r/creativecoding</span><span>2026-09-17</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/creativecoding/comments/1wi0jqw/turned_a_webcam_into_a_live_updating_psychedelic/" target="_blank">把攝影機畫面即時轉成迷幻油畫效果</a></p>
+  <p class="item-body">利用 creative coding 技術即時將 webcam 影像轉譯成不斷變化的迷幻油畫風格影像，屬於即時生成視覺的裝置類應用。</p>
+  <p class="item-meta"><span class="source">r/creativecoding</span><span>2026-09-16</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/creativecoding/comments/1wi6ezt/nasa_spider/" target="_blank">NASA Spider 生成視覺作品</a></p>
+  <p class="item-body">一件以生成藝術手法呈現的視覺作品分享，屬於 creative coding 社群的日常創作交流。</p>
+  <p class="item-meta"><span class="source">r/creativecoding</span><span>2026-09-16</span></p>
+</div>
+<div class="item">
+  <p class="item-title"><a href="https://www.reddit.com/r/creativecoding/comments/1wi7z3d/a_treebased_visual_launcher_for_my_collection_of/" target="_blank">為自己的 Creative Coding 工具集做的樹狀視覺化啟動器</a></p>
+  <p class="item-body">作者為個人累積的 creative coding 工具建立了一個樹狀結構的視覺化啟動介面，方便管理與快速呼叫各種創作小工具。</p>
+  <p class="item-meta"><span class="source">r/creativecoding</span><span>2026-09-16</span></p>
+</div>
+</section>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    交叉點 · Charles 的跨域電子報 · 2026-09-19<br>
+    由 Mac Mini cron + Claude API 篩選，GitHub Pages 託管
+  </div>
+</footer>
+</body>
+</html>
